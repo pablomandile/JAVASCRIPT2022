@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 y 2 - LAB2</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var edad = prompt("Edad: ");
+    var nombre = prompt("Nombre: ");
+    var apellido = prompt("Apellido: ");
+    var sueldo = prompt("¿Cuál es tu sueldo?");
+    var bonus = prompt("¿Cuánto fue el bonus de este mes?")
+    var total = parseFloat(sueldo) + parseFloat(bonus);
+    var mensaje1 = "El nombre del usuario es " + nombre + " " + apellido + " y tiene " + edad + " años de edad.";
+    var mensaje2 = "El resultado final de tu sueldo es: " + total;
+    alert(mensaje1 + "\n" + mensaje2);
+    document.write(mensaje1+"<br>");
+    document.write(mensaje2);
+</script>
+</html>

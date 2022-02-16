@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Ejercicio 1 - LAB1</title>
+</head>
+<body>
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <th></th>
+                <th>OPERACIÓN X</th>
+                <th>OPERACIÓN Y</th>
+                <th>SALIDA X</th>
+                <th>SALIDA Y</th>
+                <th>CORRECCIÓN</th>
+            </tr>
+            <tr>
+                <TD>TEST A</TD>
+                <td>x = x + x + 1</td>
+                <td>y = y - y - x</td>
+                <TD>21</TD>
+                <TD>-21</TD>
+                <td></td>
+            </tr>
+            <tr>
+                <TD>TEST B</TD>
+                <td>x = (x - y) + 4</td>
+                <td>y = 4 + (y + 5)</td>
+                <TD>-6</TD>
+                <TD>29</TD>
+                <td></td>
+            </tr>
+            <tr>
+                <TD>TEST C</TD>
+                <td>x = x * 2 - 4</td>
+                <td>y = 4 - y * 2</td>
+                <TD>16</TD>
+                <TD>-32</TD>
+                <TD></TD>
+            </tr>
+            <tr>
+                <TD>TEST D</TD>
+                <td>x = (20 - x) / y</td>
+                <td>y = x + 2 / y</td>
+                <TD>0.5</TD>
+                <TD class="text-decoration-line-through text-danger">0.125</TD>
+                <TD>Y = 0.6</TD>
+            </tr>
+            <tr>
+                <TD>TEST E</TD>
+                <td>x = ((1 - x) * (y / 8)) * 4 * 0</td>
+                <td>y = (x + 3) / x</td>
+                <TD>0</TD>
+                <TD>infinito</TD>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script>
+    var x = 10;
+    var y = 20;
+    // /* Test A */
+    // x = x + x + 1;r
+    // y = y - y - x;
+    // /* Test B */
+    // x = (x - y) + 4;
+    // y = 4 + (y + 5);
+    // /* Test C */
+    // x = x * 2 - 4;
+    // y = 4 - y * 2;
+    /* Test D */
+    // x = (20 - x) / y;
+    // console.log(x);
+    // y = x + 2 / y;
+    // /* Test E */
+    // x = ((1 - x) * (y / 8)) * 4 * 0;
+    // y = (x + 3) / x;
+    // alert("Valor de X: " + x);
+    // alert("Valor de Y: " + y);
+</script>
+</html>
